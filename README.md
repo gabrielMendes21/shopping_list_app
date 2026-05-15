@@ -1,10 +1,10 @@
 # Shopping List App
 
-Um aplicativo de lista de compras desenvolvido em Flutter que permite adicionar, visualizar e remover itens de forma intuitiva. O app utiliza formulários com validação e oferece uma interface moderna com tema escuro.
+Um aplicativo de lista de compras desenvolvido em Flutter que permite adicionar, visualizar e remover itens, utilizando formulários com validação.
 
 ## 📋 Sobre o Projeto
 
-Este projeto é uma aplicação de lista de compras que demonstra conceitos fundamentais do Flutter, incluindo gerenciamento de estado, navegação entre telas, validação de formulários e manipulação de listas dinâmicas. Os usuários podem adicionar itens com nome, quantidade e categoria, além de remover itens deslizando-os para o lado (swipe to dismiss).
+Este projeto é uma aplicação de lista de compras. Os usuários podem adicionar itens com nome, quantidade e categoria, além de remover itens deslizando-os para o lado (swipe to dismiss).
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -56,23 +56,14 @@ flutter run -d <device-id>
 
 ```
 lib/
-├── main.dart                 # Ponto de entrada da aplicação
+├── main.dart            
 ├── data/
-│   ├── categories.dart       # Dados das categorias disponíveis
-│   └── dummy_items.dart      # Dados de exemplo (não utilizados ativamente)
+│   ├── categories.dart  
+│   └── dummy_items.dart 
 ├── models/
-│   ├── category.dart         # Modelo de dados para categorias
-│   └── grocery_item.dart     # Modelo de dados para itens da lista
+│   ├── category.dart    
+│   └── grocery_item.dart
 └── widget/
-    ├── grocery_list.dart     # Tela principal com a lista de compras
-    └── new_item.dart         # Tela de formulário para adicionar novos itens
+    ├── grocery_list.dart
+    └── new_item.dart    
 ```
-
-### Principais Funcionalidades
-
-- ✅ Adicionar itens com nome, quantidade e categoria
-- ✅ Validação de formulários com feedback visual
-- ✅ Remover itens com gesto de deslizar (Dismissible)
-- ✅ Interface responsiva com Material Design
-- ✅ Tema escuro personalizado
-- ✅ Navegação entre telas com retorno de dados
